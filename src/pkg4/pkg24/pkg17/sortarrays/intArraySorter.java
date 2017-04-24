@@ -5,6 +5,8 @@
  */
 package pkg4.pkg24.pkg17.sortarrays;
 
+import java.util.Arrays;
+
 /**
  *
  * @author Michael Juarez
@@ -19,9 +21,14 @@ public class intArraySorter {
         intArray = array;
     }
     
-    public int[] sortArray()
+    //Processes and returns the sorted array.
+    public void sortArray()
     {
-        
+        Arrays.sort(intArray);
+    }
+    
+    public int[] getSortedArray()
+    {
         return intArray;
     }
 }
